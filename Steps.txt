@@ -1,0 +1,42 @@
+API = Marshmallow
+
+Activity Name: MainActivity.java (C++, Kottin)
+
+Layout Name: activity-main.xml
+
+res - resources
+
+to open the android emulator you click the red rectangle with the android at the top right.
+
+
+to fix it:
+google = Gradle sync failed
+https://www.quora.com/The-Gradle-project-sync-failed-on-Android-Studio-3-0-Should-I-reinstall
+
+
+Organize your team's projects & work in one place with Asana.
+Elevate your team by improving workflow & productivity. Get your team on a trial of Asana today.
+Free trial at asana.com
+7 Answers
+Trupti Kaushike
+Trupti Kaushike, B.E. Information Technology, Government College of Engineering, Aurangabad (2019)
+Answered Jan 22, 2018
+[
+Download latest version of gradle.
+
+You can download it from Gradle | Releases
+
+After downloading it exctract all the files into a folder.
+
+Open your android studio. Go to file->settings->Build,Execution,Deployment->Gradle.
+
+Then choose Use local gradle distribution and in the Gradle home give path of the folder where we have extracted file.
+
+This will solve your problem.
+
+If you have chosen option offline work in Global Gradle settings. please uncheck it.
+
+You have to do these settings every time you create a new project.
+]
+
+
